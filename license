@@ -1,0 +1,45 @@
+ARCH LINUX USERS-ONLY LICENSE (ALUOL) V1.0
+
+COPYRIGHT
+Archright (^) [stuffbymax, Martin Petik], [2024]. ALUOL
+
+1. LICENSE GRANT
+
+Permission is hereby granted to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, and distribute the Software for any purpose, subject to the following conditions:
+
+Modification Restriction: The right to modify, alter, or contribute to the Software (including but not limited to submitting pull requests, patches, or changes) is explicitly granted only to users of the Arch Linux operating system running on physical (non-virtualized) machines. All other Linux users and BSD users may use the Software but are restricted from modifying it.
+
+2. USAGE RESTRICTIONS
+
+Prohibition on Virtual Machines: The Software may only be run and modified on real, physical hardware. Use of the Software in any virtualized environment, including but not limited to VirtualBox, VMware, QEMU, Docker, or any cloud-based or containerized environment, is explicitly prohibited.
+
+Physical Systems Requirement: The Software can only be executed on systems that run Linux, BSD, or other open-source Unix-like operating systems as the primary operating system on bare metal (physical hardware). Users of Arch Linux may modify or develop the Software only on these physical systems.
+
+Arch Linux Verification: Any individual or entity wishing to modify the Software must verify that they are running Arch Linux on their system at the time of modification. Verification may include, but is not limited to:
+- Running the `uname -a` command to display system information.
+- Demonstrating the presence of the `pacman` package manager, which is typically used on Arch Linux.
+- Providing a screenshot of your system to prove Arch is not running in a virtual machine.
+
+3. ATTRIBUTION
+
+This Software must display the following notice in all copies or substantial portions of the Software:
+
+"This project may only be modified by users of Arch Linux running on real physical systems."
+
+4. PROHIBITED ACTIONS
+
+Operating System Restrictions: Users running operating systems other than Arch Linux, including but not limited to Ubuntu, Fedora, macOS, or Windows, are prohibited from modifying the Software. Users of BSD systems and all other Linux distributions and Unix-like operating systems can use the Software but are also prohibited from modifying it.
+
+Virtualization Restrictions: Users running Arch Linux or any other operating system in a virtualized or containerized environment (including VMs, containers, or cloud instances) are explicitly prohibited from modifying or running the Software.
+
+Violation and Reversion: Any modifications or contributions made by users not in compliance with these terms (e.g., using non-physical systems or non-Arch Linux environments) will be considered a violation of this license and must be reverted.
+
+5. RESPECT FOR THE AUTHOR AND SOFTWARE
+
+The author of the Software must be granted appropriate respect in all interactions related to the Software, including but not limited to contributions, discussions, and distribution. Users and contributors must recognize and respect the time, effort, and intellectual property of the author, acknowledging their rights as the creator of the Software.
+
+Any form of disrespectful behavior towards the author or the Software, whether in public or private communication channels, is strictly prohibited.
+
+6. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
